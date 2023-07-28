@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays the current running processes containing the bash word, for all users.
+
+ps -aux | grep bash
